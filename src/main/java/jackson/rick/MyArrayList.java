@@ -7,7 +7,7 @@ import java.util.Collection;
  * Created by rickjackson on 2/22/17.
  */
 public class MyArrayList<E> {
-    private static final int DEFAULT_START_SIZE = 10;
+    private static final int DEFAULT_START_SIZE = 8;
     private static final int MAXIMUM_SIZE = Integer.MAX_VALUE - 8;
     private static final Object[] DEFAULT_START_ELEMENTS = {};
     private static final Object[] EMPTY_ELEMENTS = {};
